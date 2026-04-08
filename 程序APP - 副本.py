@@ -92,12 +92,12 @@ if st.button("🚀 开始预测", use_container_width=True):
 
     # 显示预测结果（美化卡片）
     st.markdown("---")
-    st.markdown('<div class="result-text">📊 预测结果</div>', unsafe_allow_html=True)
+    st.markdown('<div class="result-text">预测结果</div>', unsafe_allow_html=True)
     st.markdown(
         f"""
         <div style='background-color:#f0f6ff; padding:20px; border-radius:15px; text-align:center; margin-top:10px;'>
             <p style='font-size:22px; font-weight:bold; margin-bottom:10px;'>基于特征值预测为 
-            <span style='color:#ff4b4b;'>PD</span> 的可能性是</p>
+            <span style='color:#ff4b4b;'>SZ</span> 的可能性是</p>
             <p class="probability">{probability:.2f}%</p>
         </div>
         """,
