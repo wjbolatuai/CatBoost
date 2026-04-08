@@ -69,7 +69,7 @@ for i, feature in enumerate(feature_names):
             label=f"{feature}",
             value=0.0,
             step=0.1,
-            format="%.4f",
+            format="%.2f",
             key=feature,
         )
         feature_values.append(value)
