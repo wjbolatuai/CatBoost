@@ -7,7 +7,7 @@ import pandas as pd
 st.set_page_config(page_title="青少年SZ/PD鉴别诊断", layout="centered")
 
 # 加载模型（确保 catboost_model.pkl 在当前目录）
-model = joblib.load('catboost_model.pkl')
+model = joblib.load('best_catboost_model.pkl')
 
 # 特征名称（顺序需与训练时一致）
 feature_names = ["FT4", "PRL", "PDW", "NEU%", "LDH", "EO%"]
