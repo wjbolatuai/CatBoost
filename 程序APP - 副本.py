@@ -11,7 +11,7 @@ model = joblib.load('best_catboost_model.pkl')
 scaler = joblib.load('scaler.pkl')          # 必须与训练时保存的 scaler 一致
 
 # 特征名称（顺序需与训练时完全一致）
-feature_names = ["FT4", "PRL", "PDW", "NEU%", "LDH", "EO%"]
+feature_names = ["NEU%", "EO%", "PDW", "PRL", "LDH", "FT4"]
 
 # 自定义CSS样式（保持美观）
 st.markdown(
