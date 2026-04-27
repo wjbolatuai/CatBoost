@@ -57,7 +57,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.markdown('<div class="main-title">基于CatBoost模型鉴别诊断青少年SZ及PD</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-title">基于CatBoost模型鉴别诊断青少年精神分裂症(SZ)及精神病性抑郁症(PD)</div>', unsafe_allow_html=True)
 st.markdown('<div class="input-header">📝 输入以下特征检测值：</div>', unsafe_allow_html=True)
 
 # 动态生成输入框，顺序与训练时一致
